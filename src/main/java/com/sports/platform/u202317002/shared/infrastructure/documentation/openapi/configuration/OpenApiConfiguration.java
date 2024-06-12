@@ -13,14 +13,14 @@ public class OpenApiConfiguration {
     public OpenAPI learningPlatformOpenApi() {
         var openApi = new OpenAPI();
         openApi.info(new Info()
-                        .title("MathPlayOpen API")
-                        .description("MathPlayOpen application REST API documentation.")
+                        .title(" Sports API")
+                        .description(" Sportsapplication REST API documentation.")
                         .version("v1.0.0")
                         .license(new License().name("Apache 2.0")
                                 .url("https://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("MathPlayOpen Wiki Documentation")
-                        .url("https://mathplayopen.wiki.github.io/docs"));
+                        .description(" Sports Wiki Documentation")
+                        .url("https:// Sports.wiki.github.io/docs"));
         return openApi;
     }
 }
